@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        #container{
+            background: #f2f5d5;
+            border: 2px dashed green;
+        }
+        p{
+            float: left;
+            width:  44%;
+            padding: 2%;
+        }
+        #container::after{
+            content: " ";
+            display: block;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <p id="container">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem aliquid dolorem consequuntur excepturi error, aliquam odio praesentium vero a minus laborum minima ipsa dicta accusamus neque nam veniam, voluptate hic?
+    </p>
+    <p id="container">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem aliquid dolorem consequuntur excepturi error, aliquam odio praesentium vero a minus laborum minima ipsa dicta accusamus neque nam veniam, voluptate hic?
+    </p>
+</body>
+</html>
