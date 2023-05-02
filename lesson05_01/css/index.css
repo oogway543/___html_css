@@ -38,17 +38,19 @@ body{
 #cards section{
     flex: 0 1 100%;
     border: 1px rgb(255, 0, 0) solid;
+    padding: 2em;
+}
+#cards section div{
+    border: 1px black solid;
 }
 #cards section.s1{
+    
     background-color: rgb(167, 235, 212) ;
 }
 #cards section.s2{
     background-color: rgb(255, 247, 176);
 }
-#cards h1{
-    text-align: center;
-    margin: 2em 0em;
-}
+
 header h2{
     font-size: 2em;
     text-align: center;
